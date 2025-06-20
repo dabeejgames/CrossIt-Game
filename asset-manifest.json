@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CrossIt-Game/static/css/main.06dbb324.css",
+    "main.js": "/CrossIt-Game/static/js/main.1602bb20.js",
+    "static/js/453.cb8d6d85.chunk.js": "/CrossIt-Game/static/js/453.cb8d6d85.chunk.js",
+    "index.html": "/CrossIt-Game/index.html",
+    "main.06dbb324.css.map": "/CrossIt-Game/static/css/main.06dbb324.css.map",
+    "main.1602bb20.js.map": "/CrossIt-Game/static/js/main.1602bb20.js.map",
+    "453.cb8d6d85.chunk.js.map": "/CrossIt-Game/static/js/453.cb8d6d85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06dbb324.css",
+    "static/js/main.1602bb20.js"
+  ]
+}
