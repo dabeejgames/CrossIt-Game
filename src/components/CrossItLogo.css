@@ -1,0 +1,82 @@
+.crossit-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', 'Montserrat', 'Inter', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 3.2rem;
+  letter-spacing: 0.07em;
+  margin-bottom: 18px;
+  margin-top: 10px;
+  text-shadow:
+    0 2px 14px #000a,
+    0 0px 12px #4fc3f7aa,
+    0 0px 2px #ffee58cc;
+  user-select: none;
+}
+
+.crossit-c {
+  color: #43ea5e;
+  text-shadow: 0 0 8px #43ea5e99, 0 1px 0 #0008;
+  transform: rotate(-7deg) scale(1.14);
+}
+.crossit-r {
+  color: #4fc3f7;
+  text-shadow: 0 0 8px #4fc3f7cc, 0 1px 0 #0008;
+  transform: rotate(-2deg) scale(1.10);
+}
+.crossit-o {
+  color: #ffee58;
+  text-shadow: 0 0 8px #ffee58cc, 0 1px 0 #0008;
+  transform: rotate(4deg) scale(1.13);
+}
+.crossit-s, .crossit-s2 {
+  color: #f06292;
+  text-shadow: 0 0 8px #f0629299, 0 1px 0 #0008;
+  transform: rotate(-6deg) scale(1.12);
+}
+.crossit-s2 {
+  margin-right: 10px;
+  margin-left: -6px;
+  color: #4fc3f7;
+  text-shadow: 0 0 8px #4fc3f7cc, 0 1px 0 #0008;
+}
+
+.crossit-dice {
+  font-size: 2.2rem;
+  margin: 0 3px 0 3px;
+  filter: drop-shadow(0 0 4px #ffee58aa);
+  animation: dice-bounce 1.6s infinite cubic-bezier(0.7,0,0.3,1);
+  vertical-align: middle;
+  transition: filter 0.2s;
+}
+@keyframes dice-bounce {
+  0%, 100% { transform: translateY(0) rotate(-10deg);}
+  18% { transform: translateY(-14px) rotate(20deg);}
+  20% { transform: translateY(-12px) rotate(-10deg);}
+  22% { transform: translateY(-8px) rotate(-20deg);}
+  25% { transform: translateY(0) rotate(0deg);}
+}
+
+.crossit-i {
+  color: #ffee58;
+  text-shadow: 0 0 8px #ffee58cc, 0 1px 0 #0008;
+  transform: rotate(-3deg) scale(1.07);
+}
+.crossit-t {
+  color: #f06292;
+  text-shadow: 0 0 8px #f0629299, 0 1px 0 #0008;
+  transform: rotate(2deg) scale(1.11);
+}
+.crossit-bang {
+  color: #43ea5e;
+  text-shadow: 0 0 8px #43ea5e99, 0 1px 0 #0008;
+  margin-left: 6px;
+  font-size: 3.7rem;
+  transform: rotate(-15deg) scale(1.18);
+  animation: bang-pulse 1.8s infinite;
+}
+@keyframes bang-pulse {
+  0%, 100% { text-shadow: 0 0 8px #43ea5e99, 0 1px 0 #0008; }
+  50% { text-shadow: 0 0 24px #ffee5888, 0 2px 8px #43ea5eaa, 0 1px 0 #0008; }
+}
